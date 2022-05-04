@@ -462,6 +462,9 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('ɢᴛʀᴀɴs ', callback_data='gtrans'),
             InlineKeyboardButton('ɪɴғᴏ ', callback_data='info'),
             InlineKeyboardButton('ᴘᴀsᴛᴇ ', callback_data='paste')
+            InlineKeyboardButton('𝖡ᴀᴄᴋ', callback_data=f'next_{req}_{key}_{off_set}'),
+            InlineKeyboardButton(f'🗓 {round(int(offset)/10)+1} / {round(total/10)}', callback_data="pages'),
+            InlineKeyboardButton('𝖭ᴇxᴛ', callback_data=f'next_{req}_{key}_{n_offset}')
             ],[
             InlineKeyboardButton('ᴘᴜʀɢᴇ ', callback_data='purge'),
             InlineKeyboardButton('ʀᴇsᴛʀɪᴄᴛ ', callback_data='restric'),
@@ -470,6 +473,9 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('ᴛɢʀᴀᴘʜ ', callback_data='tgraph'),
             InlineKeyboardButton('ᴡʜᴏɪs ', callback_data='whois'),
             InlineKeyboardButton('ғᴜɴ ', callback_data='fun')
+            InlineKeyboardButton('𝖡ᴀᴄᴋ', callback_data=f'next_{req}_{key}_{off_set}'),
+            InlineKeyboardButton(f'🗓 {round(int(offset)/10)+1} / {round(total/10)}', callback_data="pages'),
+            InlineKeyboardButton('𝖭ᴇxᴛ', callback_data=f'next_{req}_{key}_{n_offset}')
             ],[
             InlineKeyboardButton('ᴀʟɪᴠᴇ ', callback_data='alive'),
             InlineKeyboardButton('sᴏɴɢ ', callback_data='song'),
